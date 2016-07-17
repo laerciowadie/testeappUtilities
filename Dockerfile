@@ -26,7 +26,6 @@ RUN update-ca-certificates -f
 
 RUN npm install cassandra-driver
 
-# Bundle app source
 COPY . /usr/src/app
 
 EXPOSE 8080
